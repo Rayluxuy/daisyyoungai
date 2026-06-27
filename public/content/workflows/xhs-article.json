@@ -1,0 +1,12 @@
+{
+  "name": "xiaohongshu_article_workflow",
+  "version": "0.1.0",
+  "steps": [
+    { "id": "analyzer", "prompt": "prompts/analyzer.md", "output": "analysis" },
+    { "id": "title", "prompt": "prompts/title.md", "output": "titles" },
+    { "id": "copywriter", "prompt": "prompts/copywriter.md", "output": "body" },
+    { "id": "review", "prompt": "prompts/review.md", "output": "review" },
+    { "id": "comments", "prompt": "prompts/comments.md", "output": "comments" },
+    { "id": "local_compliance", "prompt": "content/knowledge/forbidden-words.json", "output": "compliance" }
+  ]
+}
