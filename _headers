@@ -1,15 +1,10 @@
-# 去 AI 味 Skill
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
 
-## 检查
-- 是否太完整
-- 是否像总结文
-- 是否每段都很正确
-- 是否有公文化连接词
-- 是否没有真实场景
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
 
-## 改写动作
-- 删除总结句
-- 增加生活动作
-- 增加一点犹豫和停顿
-- 把“建议大家”改成“我自己会”
-- 把“值得一试”改成“我会继续用”
+/content/*
+  Cache-Control: public, max-age=300
